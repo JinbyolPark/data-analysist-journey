@@ -1,0 +1,8 @@
+print("Hi, this is Age Calculator")
+birth_year = input("What year were you born? ")
+birth_year = int(birth_year)
+age = 2025 - birth_year
+print("You are", age,"years old. You are way too young!")
+
+print("You were", age-5, "5 years ago.")
+print("And you will be", age+5, "in 2030.")
